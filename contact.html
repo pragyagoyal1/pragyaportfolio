@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" class="href">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Brad</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!--navbar end-->
+
+    <!--contact section start-->
+    <section class="contact py-5" id="contact">
+        <div class="container-lg py-4">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="section-title text-center">
+                <h2 class="fw-bold mb-5">Contact Me</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5">
+              <div class="basis-full lg:self-center">
+                <h2 class="font-bold mb-4 ">Got a problem to solve?</h2>
+                <p class="text-muted fs-5">Get your space suit ready and tell me your ideas to develop your dream website.</p>
+                </div>
+                <div class="col-lg-12 ">
+                  <div class="social-links ">
+                      <a href="# " class=" text-dark fs-2 social"><i class="fab fa-facebook-f icon"></i></a>
+                      <a href="# " class="text-dark fs-2 social"><i class="fab fa-twitter icon "></i></a>
+                      <a href="# " class="text-dark fs-2 social"><i class="fab fa-instagram icon "></i></a>
+                      <a href="# " class="text-dark fs-2 social"><i class="fab fa-linkedin-in icon "></i></a>
+                  </div>
+              </div>
+                  
+            </div>
+            <div class="col-md-7">
+              <div class="contact-form">
+                <form action="/submit_form.php" method="POST">
+                  <div class="row">
+                    <div class="col-lg-6 mb-4">
+                      <label for="username">Your Name:</label>
+                      <input type="text" id="username" name="username" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                      <label for="email">Your Email:</label>
+                      <input type="email" id="email" name="email" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm" >
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 mb-4">
+                      <label for="subject">Subject:</label>
+                      <input type="text" id="subject" name="subject" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm" >
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 mb-4">
+                      <label for="message">Your Message:</label>
+                      <textarea id="message" name="message" rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm" ></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <button type="submit" class="btn btn-danger px-3" id="submit-btn">Send Message</button>
+                    </div>
+                  </div>
+                </form>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--contact section end-->
+
+
+    <!-- footer section-->
+    <footer id="footer" class="container-fluid  bg-secondary p-4 px-sm-1 px-md-5">
+        <div class="container text-center">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+      <!-- footer end-->
+      <script type="text/Javascript" src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm " crossorigin="anonymous "></script>
+  
+  </body>
+  </html>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" class="href">
+    <!---animation on scrool-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <!--Home section start-->
+    <section class="home py-5" id="home">
+      <div class="container-lg">
+        <div class="row p-4 align-item-center align-content-center">
+          <div class="col-md-6 ">
+            <div class="home-img text-center simple-shape  ">
+              <img src="2.jpg" class="rounded one w-50 h-20">
+            </div>
+          </div>
+          <div class="col-md-6  order-md-first" >
+            <div class="home-text " style="padding-top: 50px;">
+              <p class="text-muted fs-5 mb-1">Hello I'm</p>
+              <h3 class="fs-4">Pragya Goyal</h3>
+              <div id="app"></div>
+              <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Home section end-->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container mb-4" >
+
+        <div class="section-title mb-4" >
+          <h2 class="text-center fs-1 mb-4">About</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4" >
+            <img src="1.jpg" class="img-fluid w-50 h-20" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100"
+          data-aos-duration="1000">
+            <h3 class="text-muted" >UI/UX Designer &amp; Web Developer.</h3>
+            <div class="row">
+              <div class="col-lg-6 m">
+                <ul>
+                  <li><strong>Birthday:</strong> <span>17 July 2002</span></li>
+                  <li> <strong>Website:</strong> <span>www.example.com</span></li>
+                  <li> <strong>Phone:</strong> <span>9352656523</span></li>
+                  <li><strong>City:</strong> <span>Jodhpur, Rajsthan</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li> <strong>Age:</strong> <span>21</span></li>
+                  <li> <strong>Degree:</strong> <span>Bachelor</span></li>
+                  <li> <strong>Emails:</strong>
+                    <span>pragyagoyal1717@gmail.com</span>
+                  </li>
+                  <li> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <button id="downloadButtons"  class="btn btn-secondary px-3" data-aos="fade-up" data-aos-delay="100"
+            data-aos-duration="1000">Download CV</button>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+        <!-- skill section start -->
+        <div class="container py-5" id="skills" data-aos="fade-left" data-aos-delay="100"
+        data-aos-duration="1000">
+          <h2 class="text-center ">My Skills</h2>
+          <div class="row py-3 skills-row ">
+            <div class="col-md-6" data-sr="enter left and move 50px over 1s">
+              <div class="px-lg-3 skill-section">
+                <div class="skill-item">
+                  <span class="caption">HTML</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">86%</div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="caption">CSS</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="caption">Javascript</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 76%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">76%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                <div class="col-md-6" data-sr="enter left and move 50px over 1s">
+                <div class="px-lg-3">
+                    <div class="skill-item">
+                        <span class="caption">Bootstrap</span>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                    </div>
+                <div class="skill-item">
+                  <span class="caption">CPP</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="caption">Web Design</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    
+      <!--skill section end-->
+      
+      
+    <!--Service section start-->
+    <section class="services py-5 "  id="skills" data-aos="fade-left" data-aos-delay="100"
+    data-aos-duration="1000">
+      <div class="container-lg py-4 ">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">What I Do</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4 card1" >
+            <div class="services-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3  fs-2">
+                <i class="fas fa-code icon"></i>
+              </div>
+              <h3 class="fs-5 py-2">Frontend Developer</h3>
+              <p class="text-muted">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+            </div>
+          </div>
+          <div class="=col-md-6 col-lg-4 mb-4  card1">
+            <div class="services-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3  fs-2 ">
+                <i class="fas fa-lightbulb icon"></i>
+              </div>
+              <h3 class="fs-5 py-2">Creative Design</h3>
+              <p class="text-muted">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+            </div>
+          </div>
+          <div class="=col-md-6 col-lg-4 mb-4 card1">
+            <div class="services-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3  fs-2">
+                <i class="fas fa-mobile icon"></i>
+              </div>
+              <h3 class="fs-5 py-2">Mobile Devlopment</h3>
+              <p class="text-muted">I can create mobile application according to your need</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--Service section end-->
+
+    <!--Freelancer Available section start-->
+    <section class="Freelancer-available py-5 bg-secondary" id="freelancer"  id="skills" data-aos="fade-left fade-up" data-aos-delay="100"
+    data-aos-duration="1000" >
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p class="text-light fs-5">Do you have any project?</p>
+            <h2 class="fs-1 text-white mb-4">I'am Available For Freelancer Projects</h2>
+            <a href="contact.html" class="btn btn-outline-light">Hire Me</a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!--Freelancer Available section end-->
+    
+       <!--contact section start-->
+       <section class="contact py-5" id="contact"  id="skills" data-aos="fade-left fade-up" data-aos-delay="100"
+       data-aos-duration="1000">
+        <div class="container-lg py-4">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="section-title text-center">
+                <h2 class="fw-bold mb-5">Contact Me</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5">
+              <div class="contact-item d-flex mb-3">
+                <div class="icon fs-5 ">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="text ms-3">
+                  <h3 class="fs-5">Email</h3>
+                  <p class="text-muted">pragyagoyal1717@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-item d-flex mb-3">
+                <div class="icon fs-5 ">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="text ms-3">
+                  <h3 class="fs-5">Phone</h3>
+                  <p class="text-muted ">9352656523</p>
+                </div>
+              </div>
+              <div class="contact-item d-flex mb-3">
+                <div class="icon fs-5 ">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="text ms-3">
+                  <h3 class="fs-5">Vist</h3>
+                  <p class="text-muted ">Jodhpur,Rajasthan</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="contact-form">
+                <form action="/submit_form.php" method="POST" class="myform">
+                  <div class="row">
+                    <div class="col-lg-6 mb-4">
+                      <label for="username">Your Name:</label>
+                      <input type="text" id="username" name="username" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                      <label for="email">Your Email:</label>
+                      <input type="email" id="email" name="email" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm" >
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 mb-4">
+                      <label for="subject">Subject:</label>
+                      <input type="text" id="subject" name="subject" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm" >
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 mb-4">
+                      <label for="message">Your Message:</label>
+                      <textarea id="message" name="message" rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm" ></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <button type="submit" class="btn btn-secondary px-3" id="submit-btn"  id="skills" data-aos="fade-lft fade-up" data-aos-delay="100"
+                      data-aos-duration="1000">Send Message</button>
+                    </div>
+                  </div>
+                </form>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--contact section end-->
+
+     <!-- footer section-->
+     <footer id="footer" class="container-fluid  bg-secondary p-4 px-sm-1 px-md-5"  id="skills" >
+      <div class="container text-center">
+          <!-- social media icons -->
+          <div class="icon mt-4">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/pragya_goyal_17" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              
+          </div>
+      </div>
+  </footer>
+  
+    <!-- footer end-->
+    <script type="text/Javascript" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm " crossorigin="anonymous "></script>
+  <!---animation on scrool-->   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();<!---animation on scrool-->
+</script>
+</body>
+</html>
