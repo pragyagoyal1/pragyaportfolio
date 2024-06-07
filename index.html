@@ -11,144 +11,184 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-        <div class="container">
-            <a class="navbar-brand" href="#">Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#resume">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contact</a>
-                  </li>
-                </ul>
-                
-            </div>
-        </div>
-    </nav>
+  <style>
+    /* Ensure no horizontal scroll */
+    html, body {
+        overflow-x: hidden;
+    }
 
-    <!--Home section start-->
-    <section class="home py-5" id="home">
-      <div class="container-lg">
-        <div class="row p-4 align-item-center align-content-center">
-          <div class="col-md-6 ">
-            <div class="home-img text-center simple-shape  ">
-              <img src="2.jpg" class="rounded one w-50 h-20">
-            </div>
-          </div>
-          <div class="col-md-6  order-md-first" >
-            <div class="home-text " style="padding-top: 50px;">
-              <p class="text-muted fs-5 mb-1">Hello I'm</p>
-              <h3 class="fs-4">Pragya Goyal</h3>
-              <div id="app"></div>
-              <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-            </div>
-          </div>
+    /* Set box-sizing to border-box for all elements */
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    /* Make images responsive */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+</head>
+<body>
+<div>
+<nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+    <div class="container">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+</div>
+
+<!--Home section start-->
+<div>
+<section class="home py-5" id="home">
+  <div class="container-lg">
+    <div class="row p-4 align-item-center align-content-center">
+      <div class="col-md-6 ">
+        <div class="home-img text-center simple-shape  ">
+          <img src="2.jpg" class="rounded one w-50 h-20">
         </div>
       </div>
-    </section>
-    <!--Home section end-->
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container mb-4" >
-
-        <div class="section-title mb-4" >
-          <h2 class="text-center fs-1 mb-4">About</h2>
+      <div class="col-md-6  order-md-first" >
+        <div class="home-text " style="padding-top: 50px;">
+          <p class="text-muted fs-5 mb-1">Hello I'm</p>
+          <h3 class="fs-4">Pragya Goyal</h3>
+          <div id="app"></div>
+          <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<!--Home section end-->
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+  <div class="container mb-4" >
+
+    <div class="section-title mb-4" >
+      <h2 class="text-center fs-1 mb-4">About</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-4" >
+        <img src="1.jpg" class="img-fluid w-50 h-20" alt="">
+      </div>
+      <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100"
+      data-aos-duration="1000">
+        <h3 class="text-muted" >UI/UX Designer &amp; Web Developer.</h3>
         <div class="row">
-          <div class="col-lg-4" >
-            <img src="1.jpg" class="img-fluid w-50 h-20" alt="">
+          <div class="col-lg-6 m">
+            <ul>
+              <li><strong>Birthday:</strong> <span>17 July 2002</span></li>
+              <li> <strong>Website:</strong> <span>www.example.com</span></li>
+              <li> <strong>Phone:</strong> <span>9352656523</span></li>
+              <li><strong>City:</strong> <span>Jodhpur, Rajsthan</span></li>
+            </ul>
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100"
-          data-aos-duration="1000">
-            <h3 class="text-muted" >UI/UX Designer &amp; Web Developer.</h3>
-            <div class="row">
-              <div class="col-lg-6 m">
-                <ul>
-                  <li><strong>Birthday:</strong> <span>17 July 2002</span></li>
-                  <li> <strong>Website:</strong> <span>www.example.com</span></li>
-                  <li> <strong>Phone:</strong> <span>9352656523</span></li>
-                  <li><strong>City:</strong> <span>Jodhpur, Rajsthan</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li> <strong>Age:</strong> <span>21</span></li>
-                  <li> <strong>Degree:</strong> <span>Bachelor</span></li>
-                  <li> <strong>Emails:</strong>
-                    <span>pragyagoyal1717@gmail.com</span>
-                  </li>
-                  <li> <strong>Freelance:</strong> <span>Available</span></li>
-                </ul>
-              </div>
-            </div>
-            <button id="downloadButtons"  class="btn btn-secondary px-3" data-aos="fade-up" data-aos-delay="100"
-            data-aos-duration="1000">Download CV</button>
+          <div class="col-lg-6">
+            <ul>
+              <li> <strong>Age:</strong> <span>21</span></li>
+              <li> <strong>Degree:</strong> <span>Bachelor</span></li>
+              <li> <strong>Emails:</strong>
+                <span>pragyagoyal1717@gmail.com</span>
+              </li>
+              <li> <strong>Freelance:</strong> <span>Available</span></li>
+            </ul>
           </div>
         </div>
-
+        <button id="downloadButtons"  class="btn btn-secondary px-3" data-aos="fade-up" data-aos-delay="100"
+        data-aos-duration="1000">Download CV</button>
       </div>
-    </section><!-- End About Section -->
-        <!-- skill section start -->
-        <div class="container py-5" id="skills" data-aos="fade-left" data-aos-delay="100"
-        data-aos-duration="1000">
-          <h2 class="text-center ">My Skills</h2>
-          <div class="row py-3 skills-row ">
-            <div class="col-md-6" data-sr="enter left and move 50px over 1s">
-              <div class="px-lg-3 skill-section">
-                <div class="skill-item">
-                  <span class="caption">HTML</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">86%</div>
-                  </div>
-                </div>
-                <div class="skill-item">
-                  <span class="caption">CSS</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
-                  </div>
-                </div>
-                <div class="skill-item">
-                  <span class="caption">Javascript</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 76%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">76%</div>
-                  </div>
-                </div>
+    </div>
+
+  </div>
+</section><!-- End About Section -->
+    <!-- skill section start -->
+    <div class="container py-5" id="skills" data-aos="fade-left" data-aos-delay="100"
+    data-aos-duration="1000">
+      <h2 class="text-center ">My Skills</h2>
+      <div class="row py-3 skills-row ">
+        <div class="col-md-6" data-sr="enter left and move 50px over 1s">
+          <div class="px-lg-3 skill-section">
+            <div class="skill-item">
+              <span class="caption">HTML</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">86%</div>
               </div>
             </div>
-                <div class="col-md-6" data-sr="enter left and move 50px over 1s">
-                <div class="px-lg-3">
-                    <div class="skill-item">
-                        <span class="caption">Bootstrap</span>
-                        <div class="progress">
-                          <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
-                        </div>
-                    </div>
-                <div class="skill-item">
-                  <span class="caption">CPP</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
-                  </div>
-                </div>
-                <div class="skill-item">
-                  <span class="caption">Web Design</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
-                  </div>
-                </div>
+            <div class="skill-item">
+              <span class="caption">CSS</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="caption">JavaScript</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="caption">React js
+              </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 76%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">76%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" data-sr="enter left and move 50px over 1s">
+          <div class="px-lg-3 skill-section">
+            <div class="skill-item">
+              <span class="caption">Bootstrap</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">86%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="caption">C++</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="caption">Core Java</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="caption">Sql</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 76%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">76%</div>
+              </div>
+            </div>
+          </div>
+        </div>
               </div>
             </div>
           </div>
